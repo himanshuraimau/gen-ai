@@ -3,7 +3,7 @@
 
 ## Overview
 
-This project is a web scraper application that allows you to scrape data from a provided URL and display the content. The application consists of a backend server built with Express and a frontend served as static HTML.
+This project is a web scraper application that allows you to scrape data from a provided URL and make a json files with set of req instructions.
 
 ## Getting Started
 
