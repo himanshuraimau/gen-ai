@@ -24,10 +24,16 @@ loadContent().then(async (content) => {
 
     try {
         // Loop through each content item
-        for (let i = 0; i < 2; i++) {
+        for (let i = 0; i < 5; i++) {
             const result = await analyze(content[i].content);
+            content[i].content = content[i].content.replace(/(\r\n|\n|\r)/gm, " ");
+
+
+
             const relevantdata = await analyzeLinks(content[i].content, result.questions, links);
             
+
+
             // Store results in content_json
             content_json[i] = {
                 links: content[i].link,

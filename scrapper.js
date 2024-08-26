@@ -9,7 +9,7 @@ export const scrapper = async () => {
     
     const browser = await puppeteer.launch({ headless: true }); 
     const page = await browser.newPage();
-    const baseURL = "http://info.cern.ch/";
+    const baseURL = "https://www.decoderssit.com/";
     
     await page.goto(baseURL, { waitUntil: 'networkidle0' });
 

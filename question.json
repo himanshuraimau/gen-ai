@@ -1,75 +1,186 @@
 [
   {
-    "links": "http://info.cern.ch/hypertext/WWW/TheProject.html",
+    "links": "https://www.decoderssit.com/about",
     "questions": [
-      "What is the World Wide Web project?",
-      "What is the goal of the WorldWideWeb initiative?",
-      "What types of documents are included in the W3 project?",
-      "What are some of the linked documents related to the W3 project?",
-      "What information is provided in the 'Software Products' section?",
-      "What details are included in the 'Technical' section?",
-      "What is the purpose of the 'Bibliography' section?",
-      "Who are some of the people involved in the project?",
-      "What is the history of the World Wide Web project?",
-      "How can individuals support the web?"
+      "What is the purpose of the DeCoders programming club?",
+      "Where is the DeCoders programming club located?",
+      "What is the official title of the DeCoders programming club?",
+      "What is the description of the DeCoders programming club?",
+      "What are the keywords associated with the DeCoders programming club?",
+      "What is the URL of the DeCoders programming club?",
+      "What is the image associated with the DeCoders programming club?",
+      "What fonts are used on the DeCoders website?",
+      "What scripts are included in the DeCoders website?",
+      "What styles are applied to the body element in the DeCoders website?"
     ],
     "relevantLinks": [
       {
-        "title": "Executive Summary of the World Wide Web project",
-        "url": "http://info.cern.ch/hypertext/WWW/TheProject.html"
+        "title": "About DeCoders",
+        "url": "https://www.decoderssit.com/about"
       },
       {
-        "title": "Mailing lists for the World Wide Web project",
-        "url": "http://home.web.cern.ch/topics/birth-web"
+        "title": "Certificates",
+        "url": "https://www.decoderssit.com/certificates"
       },
       {
-        "title": "Policy of the World Wide Web project",
-        "url": "http://home.web.cern.ch/about"
+        "title": "Upcoming Event",
+        "url": "https://www.decoderssit.com/upcoming-event"
       },
       {
-        "title": "Frequently Asked Questions about the World Wide Web project",
-        "url": "http://home.web.cern.ch/topics/birth-web"
+        "title": "Team",
+        "url": "https://www.decoderssit.com/team"
       },
       {
-        "title": "Software Products of the World Wide Web project",
-        "url": "http://line-mode.cern.ch/www/hypertext/WWW/TheProject.html"
+        "title": "Timeline",
+        "url": "https://www.decoderssit.com/timeline"
       }
     ]
   },
   {
-    "links": "http://line-mode.cern.ch/www/hypertext/WWW/TheProject.html",
+    "links": "https://www.decoderssit.com/certificates",
     "questions": [
-      "What is the World Wide Web project?",
-      "What is the goal of the WorldWideWeb initiative?",
-      "What types of documents are linked to the World Wide Web project?",
-      "What does the 'What's out there?' section provide?",
-      "What information is included in the 'Help' section?",
-      "What does the 'Software Products' section list?",
-      "What details are covered in the 'Technical' section?",
-      "What does the 'Bibliography' section contain?",
-      "Who is listed in the 'People' section?",
-      "How can someone support the web according to the 'How can I help?' section?"
+      "What is the purpose of the DeCoders programming club?",
+      "Where is the DeCoders programming club located?",
+      "What is the official title of the DeCoders programming club?",
+      "What is the description of the DeCoders programming club?",
+      "What are the keywords associated with the DeCoders programming club?",
+      "What is the URL of the DeCoders programming club website?",
+      "What is the image associated with the DeCoders programming club?",
+      "What are the preconnect links in the HTML content?",
+      "What scripts are included in the HTML content?",
+      "What is the purpose of the CSS styles in the HTML content?"
     ],
     "relevantLinks": [
       {
-        "title": "The World Wide Web project",
-        "url": "http://info.cern.ch/hypertext/WWW/TheProject.html"
+        "title": "About DeCoders",
+        "url": "https://www.decoderssit.com/about"
       },
       {
-        "title": "Summary of the project",
-        "url": "http://line-mode.cern.ch/www/hypertext/WWW/TheProject.html"
+        "title": "Certificates",
+        "url": "https://www.decoderssit.com/certificates"
       },
       {
-        "title": "Mailing lists",
-        "url": "http://home.web.cern.ch/about"
+        "title": "Upcoming Event",
+        "url": "https://www.decoderssit.com/upcoming-event"
       },
       {
-        "title": "Policy",
-        "url": "http://home.web.cern.ch/topics/birth-web"
+        "title": "Team",
+        "url": "https://www.decoderssit.com/team"
       },
       {
-        "title": "Frequently Asked Questions",
-        "url": "http://home.web.cern.ch/topics/birth-web"
+        "title": "Timeline",
+        "url": "https://www.decoderssit.com/timeline"
+      }
+    ]
+  },
+  {
+    "links": "https://www.decoderssit.com/upcoming-event",
+    "questions": [
+      "What is the purpose of the DeCoders programming club?",
+      "Where is the DeCoders programming club located?",
+      "What is the official title of the DeCoders programming club?",
+      "What is the description of the DeCoders programming club?",
+      "What are the keywords associated with the DeCoders programming club?",
+      "What is the URL of the DeCoders programming club website?",
+      "What is the image associated with the DeCoders programming club?",
+      "What fonts are used on the DeCoders website?",
+      "What scripts are included in the DeCoders website?",
+      "How is the styling of the DeCoders website defined?"
+    ],
+    "relevantLinks": [
+      {
+        "title": "DeCoders - About",
+        "url": "https://www.decoderssit.com/about"
+      },
+      {
+        "title": "DeCoders - Certificates",
+        "url": "https://www.decoderssit.com/certificates"
+      },
+      {
+        "title": "DeCoders - Upcoming Event",
+        "url": "https://www.decoderssit.com/upcoming-event"
+      },
+      {
+        "title": "DeCoders - Team",
+        "url": "https://www.decoderssit.com/team"
+      },
+      {
+        "title": "DeCoders - Timeline",
+        "url": "https://www.decoderssit.com/timeline"
+      }
+    ]
+  },
+  {
+    "links": "https://www.decoderssit.com/team",
+    "questions": [
+      "What is the purpose of the DeCoders programming club?",
+      "Where is the DeCoders programming club located?",
+      "What is the official title of the DeCoders programming club?",
+      "What is the main focus of the DeCoders programming club?",
+      "What are some of the keywords associated with the DeCoders programming club?",
+      "What is the URL of the DeCoders programming club?",
+      "What is the content of the meta description for DeCoders?",
+      "What is the content of the meta keywords for DeCoders?",
+      "What is the image URL associated with DeCoders?",
+      "What external scripts are included in the HTML content?"
+    ],
+    "relevantLinks": [
+      {
+        "title": "DeCoders - About",
+        "url": "https://www.decoderssit.com/about"
+      },
+      {
+        "title": "DeCoders - Certificates",
+        "url": "https://www.decoderssit.com/certificates"
+      },
+      {
+        "title": "DeCoders - Upcoming Event",
+        "url": "https://www.decoderssit.com/upcoming-event"
+      },
+      {
+        "title": "DeCoders - Team",
+        "url": "https://www.decoderssit.com/team"
+      },
+      {
+        "title": "DeCoders - Timeline",
+        "url": "https://www.decoderssit.com/timeline"
+      }
+    ]
+  },
+  {
+    "links": "https://www.decoderssit.com/timeline",
+    "questions": [
+      "What is the purpose of the DeCoders programming club?",
+      "Where is the DeCoders programming club located?",
+      "What is the official title of the DeCoders programming club?",
+      "What is the main focus of the DeCoders programming club?",
+      "What are some keywords associated with the DeCoders programming club?",
+      "What is the URL of the DeCoders programming club?",
+      "What is the content of the meta description for DeCoders?",
+      "What is the content of the meta keywords for DeCoders?",
+      "What is the image URL associated with DeCoders?",
+      "What external scripts are included in the HTML content?"
+    ],
+    "relevantLinks": [
+      {
+        "title": "About DeCoders",
+        "url": "https://www.decoderssit.com/about"
+      },
+      {
+        "title": "Certificates",
+        "url": "https://www.decoderssit.com/certificates"
+      },
+      {
+        "title": "Upcoming Event",
+        "url": "https://www.decoderssit.com/upcoming-event"
+      },
+      {
+        "title": "Team",
+        "url": "https://www.decoderssit.com/team"
+      },
+      {
+        "title": "Timeline",
+        "url": "https://www.decoderssit.com/timeline"
       }
     ]
   }
