@@ -1,12 +1,11 @@
 import express from 'express';
 import dotenv from 'dotenv';
-import fs from "fs";
-import  {analyze}  from './ai.js';
+import fs from 'fs';
+import { analyze, analyzeLinks } from './ai.js';
 import { loadContent } from './content_load.js';
-import { relevantLinks } from './ai.js';
 
 dotenv.config({
-    path: "./config.env"
+    path: './config.env'
 });
 
 const app = express();
@@ -21,19 +20,19 @@ app.get('/', (req, res) => {
 loadContent().then(async (content) => {
     const content_json = [];
     const links = content.map(element => element.link);
-    console.log(links)
+    console.log(links);
 
     try {
         // Loop through each content item
         for (let i = 0; i < 2; i++) {
             const result = await analyze(content[i].content);
-            const relevantdata = await relevantLinks(content[i].content, links);
+            const relevantdata = await analyzeLinks(content[i].content, result.questions, links);
             
             // Store results in content_json
             content_json[i] = {
                 links: content[i].link,
                 questions: result.questions,
-                relevantLinks: relevantdata
+                relevantLinks: relevantdata.relevantLinks
             };
 
             console.log(content_json[i]);
@@ -51,12 +50,11 @@ loadContent().then(async (content) => {
             }
         });
     } catch (err) {
-        console.error("Error processing content:", err);
+        console.error('Error processing content:', err);
     }
 }).catch(err => {
-    console.error("Error loading content:", err);
+    console.error('Error loading content:', err);
 });
-
 
 app.use((err, req, res, next) => {
     console.error(err.stack);

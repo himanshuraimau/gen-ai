@@ -10,8 +10,30 @@
       "What details are included in the 'Technical' section?",
       "What is the purpose of the 'Bibliography' section?",
       "Who are some of the people involved in the project?",
-      "What information is provided in the 'History' section?",
-      "How can individuals support the web according to the content?"
+      "What is the history of the World Wide Web project?",
+      "How can individuals support the web?"
+    ],
+    "relevantLinks": [
+      {
+        "title": "Executive Summary of the World Wide Web project",
+        "url": "http://info.cern.ch/hypertext/WWW/TheProject.html"
+      },
+      {
+        "title": "Mailing lists for the World Wide Web project",
+        "url": "http://home.web.cern.ch/topics/birth-web"
+      },
+      {
+        "title": "Policy of the World Wide Web project",
+        "url": "http://home.web.cern.ch/about"
+      },
+      {
+        "title": "Frequently Asked Questions about the World Wide Web project",
+        "url": "http://home.web.cern.ch/topics/birth-web"
+      },
+      {
+        "title": "Software Products of the World Wide Web project",
+        "url": "http://line-mode.cern.ch/www/hypertext/WWW/TheProject.html"
+      }
     ]
   },
   {
@@ -19,14 +41,36 @@
     "questions": [
       "What is the World Wide Web project?",
       "What is the goal of the WorldWideWeb initiative?",
-      "What kind of information is linked to the document about W3?",
-      "What are some of the components listed under Software Products?",
-      "What details are included under the Technical section?",
-      "What does the Bibliography section contain?",
-      "Who are some of the people involved in the project?",
-      "What is the summary provided under the History section?",
-      "How can someone support the web according to the content?",
-      "How can one obtain the code mentioned in the content?"
+      "What types of documents are linked to the World Wide Web project?",
+      "What does the 'What's out there?' section provide?",
+      "What information is included in the 'Help' section?",
+      "What does the 'Software Products' section list?",
+      "What details are covered in the 'Technical' section?",
+      "What does the 'Bibliography' section contain?",
+      "Who is listed in the 'People' section?",
+      "How can someone support the web according to the 'How can I help?' section?"
+    ],
+    "relevantLinks": [
+      {
+        "title": "The World Wide Web project",
+        "url": "http://info.cern.ch/hypertext/WWW/TheProject.html"
+      },
+      {
+        "title": "Summary of the project",
+        "url": "http://line-mode.cern.ch/www/hypertext/WWW/TheProject.html"
+      },
+      {
+        "title": "Mailing lists",
+        "url": "http://home.web.cern.ch/about"
+      },
+      {
+        "title": "Policy",
+        "url": "http://home.web.cern.ch/topics/birth-web"
+      },
+      {
+        "title": "Frequently Asked Questions",
+        "url": "http://home.web.cern.ch/topics/birth-web"
+      }
     ]
   }
 ]
