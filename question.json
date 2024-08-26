@@ -1,0 +1,32 @@
+[
+  {
+    "links": "http://info.cern.ch/hypertext/WWW/TheProject.html",
+    "questions": [
+      "What is the World Wide Web project?",
+      "What is the goal of the WorldWideWeb initiative?",
+      "What types of documents are included in the W3 project?",
+      "What are some of the linked documents related to the W3 project?",
+      "What information is provided in the 'Software Products' section?",
+      "What details are included in the 'Technical' section?",
+      "What is the purpose of the 'Bibliography' section?",
+      "Who are some of the people involved in the project?",
+      "What information is provided in the 'History' section?",
+      "How can individuals support the web according to the content?"
+    ]
+  },
+  {
+    "links": "http://line-mode.cern.ch/www/hypertext/WWW/TheProject.html",
+    "questions": [
+      "What is the World Wide Web project?",
+      "What is the goal of the WorldWideWeb initiative?",
+      "What kind of information is linked to the document about W3?",
+      "What are some of the components listed under Software Products?",
+      "What details are included under the Technical section?",
+      "What does the Bibliography section contain?",
+      "Who are some of the people involved in the project?",
+      "What is the summary provided under the History section?",
+      "How can someone support the web according to the content?",
+      "How can one obtain the code mentioned in the content?"
+    ]
+  }
+]

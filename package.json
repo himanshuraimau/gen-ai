@@ -1,0 +1,29 @@
+{
+    "name": "hack",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "type": "module",
+    "scripts": {
+        "dev": "node server.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@langchain/openai": "^0.2.7",
+        "@pinecone-database/pinecone": "^3.0.1",
+        "axios": "^1.7.5",
+        "cookie-parser": "^1.4.6",
+        "cors": "^2.8.5",
+        "dotenv": "^16.4.5",
+        "express": "^4.19.2",
+        "langchain": "^0.2.17",
+        "mongoose": "^8.5.4",
+        "moongoose": "^0.0.5",
+        "nodemon": "^3.1.4",
+        "openai": "^4.56.0",
+        "puppeteer": "^23.1.1",
+        "zod": "^3.23.8"
+    }
+}
