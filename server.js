@@ -24,7 +24,7 @@ loadContent().then(async (content) => {
 
     try {
         // Loop through each content item
-        for (let i = 0; i < 5; i++) {
+        for (let i = 0; i < 6; i++) {
             const result = await analyze(content[i].content);
             content[i].content = content[i].content.replace(/(\r\n|\n|\r)/gm, " ");
 

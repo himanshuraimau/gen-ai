@@ -6,7 +6,6 @@ import dotenv from 'dotenv';
 
 dotenv.config()
 
-// First parser and prompt for generating questions
 const parser = StructuredOutputParser.fromZodSchema(
     z.object({
         questions: z.array(z.string())
@@ -52,8 +51,8 @@ export const analyze = async (content) => {
     }
 };
 
-// Second parser and prompt for generating relevant links with titles
-const parser2 = StructuredOutputParser.fromZodSchema(
+
+const linkParser = StructuredOutputParser.fromZodSchema(
     z.object({
         relevantLinks: z.array(z.object({
             title: z.string(),
@@ -65,21 +64,25 @@ const parser2 = StructuredOutputParser.fromZodSchema(
 );
 
 const getPrompt2 = async (content, questions, links) => {
-    const format_instructions = parser2.getFormatInstructions();
+    const formatInstructions = linkParser.getFormatInstructions();
 
-    const prompt = new PromptTemplate({
-        template: `You are a content analysis expert. Analyze the following content along with the generated questions and existing links. Generate exactly 5 relevant links with titles based on the content provided.
-        Do not include more than 5 links and titles. Ensure your response strictly follows the format instructions provided.
-        {format_instructions}
-        Content: {content}
-        Questions: {questions}
-        Existing Links: {links}`,
+    const promptTemplate = new PromptTemplate({
+        template: `
+            You are an expert in content analysis. 
+            Review the provided content, questions, and existing links, then generate exactly 5 relevant links with appropriate titles. 
+            Note that there are 10 questions, so the generated links should correlate with the questions, maintaining a ratio of 1 link for every 2 questions. 
+            Do not include more than 5 links in total. 
+            Follow the format instructions below:
+            {formatInstructions}
+            Content: {content}
+            Questions: {questions}
+            Existing Links: {links}
+        `,
         inputVariables: ['content', 'questions', 'links'],
-        partialVariables: { format_instructions },
+        partialVariables: { formatInstructions },
     });
 
-    const input = await prompt.format({ content, questions, links });
-    return input;
+    return await promptTemplate.format({ content, questions, links });
 }
 
 export const analyzeLinks = async (content, questions, links) => {   
@@ -90,13 +93,10 @@ export const analyzeLinks = async (content, questions, links) => {
         apiKey: process.env.OPENAI_API_KEY,
     });
 
-    const result = await model.generate([[input]]);
-
-    const generatedText = result.generations.flat(2).map((item) => item.text).join('\n');
-
     try {
-        const parsedResult = parser2.parse(generatedText);
-        return parsedResult;
+        const result = await model.generate([[input]]);
+        const generatedText = result.generations.flat(2).map((item) => item.text).join('\n');
+        return linkParser.parse(generatedText);
     } catch (e) {
         console.error("Error parsing the generated text:", e);
         throw e; 

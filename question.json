@@ -1,117 +1,43 @@
 [
   {
-    "links": "https://www.decoderssit.com/about",
+    "links": "https://www.decoderssit.com/",
     "questions": [
       "What is the purpose of the DeCoders programming club?",
       "Where is the DeCoders programming club located?",
       "What is the official title of the DeCoders programming club?",
-      "What is the description of the DeCoders programming club?",
-      "What are the keywords associated with the DeCoders programming club?",
-      "What is the URL of the DeCoders programming club?",
-      "What is the image associated with the DeCoders programming club?",
-      "What fonts are used on the DeCoders website?",
-      "What scripts are included in the DeCoders website?",
-      "What styles are applied to the body element in the DeCoders website?"
+      "What is the Department under which the DeCoders programming club operates?",
+      "What is the content of the meta description for DeCoders?",
+      "What is the content of the Twitter description for DeCoders?",
+      "What is the content of the keywords meta tag for DeCoders?",
+      "What is the URL of the DeCoders website?",
+      "What is the Google site verification code for DeCoders?",
+      "What is the font family used in the styling of the page?"
     ],
     "relevantLinks": [
       {
-        "title": "About DeCoders",
-        "url": "https://www.decoderssit.com/about"
+        "title": "DeCoders Official Website",
+        "url": "https://decoderssit.com/"
       },
       {
-        "title": "Certificates",
-        "url": "https://www.decoderssit.com/certificates"
+        "title": "DeCoders Meta Description",
+        "url": "https://decoderssit.com/"
       },
       {
-        "title": "Upcoming Event",
-        "url": "https://www.decoderssit.com/upcoming-event"
+        "title": "DeCoders Twitter Description",
+        "url": "https://decoderssit.com/"
       },
       {
-        "title": "Team",
-        "url": "https://www.decoderssit.com/team"
+        "title": "DeCoders Keywords Meta Tag",
+        "url": "https://decoderssit.com/"
       },
       {
-        "title": "Timeline",
-        "url": "https://www.decoderssit.com/timeline"
-      }
-    ]
-  },
-  {
-    "links": "https://www.decoderssit.com/certificates",
-    "questions": [
-      "What is the purpose of the DeCoders programming club?",
-      "Where is the DeCoders programming club located?",
-      "What is the official title of the DeCoders programming club?",
-      "What is the description of the DeCoders programming club?",
-      "What are the keywords associated with the DeCoders programming club?",
-      "What is the URL of the DeCoders programming club website?",
-      "What is the image associated with the DeCoders programming club?",
-      "What are the preconnect links in the HTML content?",
-      "What scripts are included in the HTML content?",
-      "What is the purpose of the CSS styles in the HTML content?"
-    ],
-    "relevantLinks": [
-      {
-        "title": "About DeCoders",
-        "url": "https://www.decoderssit.com/about"
-      },
-      {
-        "title": "Certificates",
-        "url": "https://www.decoderssit.com/certificates"
-      },
-      {
-        "title": "Upcoming Event",
-        "url": "https://www.decoderssit.com/upcoming-event"
-      },
-      {
-        "title": "Team",
-        "url": "https://www.decoderssit.com/team"
-      },
-      {
-        "title": "Timeline",
-        "url": "https://www.decoderssit.com/timeline"
+        "title": "DeCoders Font Family",
+        "url": "https://decoderssit.com/"
       }
     ]
   },
   {
     "links": "https://www.decoderssit.com/upcoming-event",
-    "questions": [
-      "What is the purpose of the DeCoders programming club?",
-      "Where is the DeCoders programming club located?",
-      "What is the official title of the DeCoders programming club?",
-      "What is the description of the DeCoders programming club?",
-      "What are the keywords associated with the DeCoders programming club?",
-      "What is the URL of the DeCoders programming club website?",
-      "What is the image associated with the DeCoders programming club?",
-      "What fonts are used on the DeCoders website?",
-      "What scripts are included in the DeCoders website?",
-      "How is the styling of the DeCoders website defined?"
-    ],
-    "relevantLinks": [
-      {
-        "title": "DeCoders - About",
-        "url": "https://www.decoderssit.com/about"
-      },
-      {
-        "title": "DeCoders - Certificates",
-        "url": "https://www.decoderssit.com/certificates"
-      },
-      {
-        "title": "DeCoders - Upcoming Event",
-        "url": "https://www.decoderssit.com/upcoming-event"
-      },
-      {
-        "title": "DeCoders - Team",
-        "url": "https://www.decoderssit.com/team"
-      },
-      {
-        "title": "DeCoders - Timeline",
-        "url": "https://www.decoderssit.com/timeline"
-      }
-    ]
-  },
-  {
-    "links": "https://www.decoderssit.com/team",
     "questions": [
       "What is the purpose of the DeCoders programming club?",
       "Where is the DeCoders programming club located?",
@@ -126,24 +52,134 @@
     ],
     "relevantLinks": [
       {
-        "title": "DeCoders - About",
+        "title": "DeCoders Programming Club",
+        "url": "https://www.decoderssit.com/"
+      },
+      {
+        "title": "DeCoders Programming Club Location",
         "url": "https://www.decoderssit.com/about"
       },
       {
-        "title": "DeCoders - Certificates",
-        "url": "https://www.decoderssit.com/certificates"
+        "title": "DeCoders Official Title",
+        "url": "https://www.decoderssit.com/about"
       },
       {
-        "title": "DeCoders - Upcoming Event",
-        "url": "https://www.decoderssit.com/upcoming-event"
+        "title": "DeCoders Programming Club Focus",
+        "url": "https://www.decoderssit.com/about"
       },
       {
-        "title": "DeCoders - Team",
-        "url": "https://www.decoderssit.com/team"
+        "title": "DeCoders Programming Club Keywords",
+        "url": "https://www.decoderssit.com/about"
+      }
+    ]
+  },
+  {
+    "links": "https://www.decoderssit.com/member-login",
+    "questions": [
+      "What is the purpose of the DeCoders programming club?",
+      "Where is the DeCoders programming club located?",
+      "What is the official title of the DeCoders programming club?",
+      "What is the Department under which the DeCoders programming club operates?",
+      "What is the content of the meta description for DeCoders?",
+      "What is the content of the meta keywords for DeCoders?",
+      "What is the URL of the DeCoders website?",
+      "What is the content of the meta image property for DeCoders?",
+      "What external scripts are included in the HTML content?"
+    ],
+    "relevantLinks": [
+      {
+        "title": "About DeCoders Programming Club",
+        "url": "https://www.decoderssit.com/about"
       },
       {
-        "title": "DeCoders - Timeline",
-        "url": "https://www.decoderssit.com/timeline"
+        "title": "DeCoders Website URL",
+        "url": "https://www.decoderssit.com/"
+      },
+      {
+        "title": "Meta Image Property for DeCoders",
+        "url": "https://www.decoderssit.com/assets/tab-logo.png"
+      },
+      {
+        "title": "Purpose of DeCoders Programming Club",
+        "url": "https://www.decoderssit.com/about"
+      },
+      {
+        "title": "External Scripts in HTML Content",
+        "url": "https://cdn.lordicon.com/ritcuqlt.js"
+      }
+    ]
+  },
+  {
+    "links": "https://www.decoderssit.com/team",
+    "questions": [
+      "What is the purpose of the DeCoders programming club?",
+      "Where is the DeCoders programming club located?",
+      "What is the official title of the DeCoders programming club?",
+      "What is the meta description of the DeCoders programming club?",
+      "What is the meta keywords associated with the DeCoders programming club?",
+      "What is the URL of the DeCoders programming club?",
+      "What is the image associated with the DeCoders programming club?",
+      "What fonts are used on the DeCoders website?",
+      "What JavaScript files are included in the HTML content?",
+      "How many Lordicon JavaScript files are included in the HTML content?"
+    ],
+    "relevantLinks": [
+      {
+        "title": "About DeCoders Programming Club",
+        "url": "https://www.decoderssit.com/about"
+      },
+      {
+        "title": "DeCoders Programming Club Location",
+        "url": "https://www.decoderssit.com/"
+      },
+      {
+        "title": "Meta Description of DeCoders Programming Club",
+        "url": "https://www.decoderssit.com/"
+      },
+      {
+        "title": "Meta Keywords for DeCoders Programming Club",
+        "url": "https://www.decoderssit.com/"
+      },
+      {
+        "title": "JavaScript Files in DeCoders HTML Content",
+        "url": "https://www.decoderssit.com/"
+      }
+    ]
+  },
+  {
+    "links": "https://www.decoderssit.com/certificates",
+    "questions": [
+      "What is the purpose of the DeCoders programming club?",
+      "Where is the DeCoders programming club located?",
+      "What is the official title of the DeCoders programming club?",
+      "What is the Department under which the DeCoders programming club operates?",
+      "What is the content of the meta description for DeCoders?",
+      "What is the content of the Twitter description for DeCoders?",
+      "What are some keywords associated with DeCoders?",
+      "What is the URL of the DeCoders website?",
+      "What is the Google site verification code for DeCoders?",
+      "What is the font family used in the CSS styling?"
+    ],
+    "relevantLinks": [
+      {
+        "title": "DeCoders Programming Club",
+        "url": "https://www.decoderssit.com/"
+      },
+      {
+        "title": "DeCoders Location",
+        "url": "https://www.decoderssit.com/about"
+      },
+      {
+        "title": "DeCoders Official Title",
+        "url": "https://www.decoderssit.com/about"
+      },
+      {
+        "title": "Department of Computer Science and Engineering",
+        "url": "https://www.decoderssit.com/about"
+      },
+      {
+        "title": "DeCoders Meta Description",
+        "url": "https://www.decoderssit.com/"
       }
     ]
   },
@@ -154,33 +190,33 @@
       "Where is the DeCoders programming club located?",
       "What is the official title of the DeCoders programming club?",
       "What is the main focus of the DeCoders programming club?",
-      "What are some keywords associated with the DeCoders programming club?",
+      "What are some of the keywords associated with the DeCoders programming club?",
       "What is the URL of the DeCoders programming club?",
       "What is the content of the meta description for DeCoders?",
       "What is the content of the meta keywords for DeCoders?",
-      "What is the image URL associated with DeCoders?",
-      "What external scripts are included in the HTML content?"
+      "What is the image content for DeCoders?",
+      "What is the content of the title tag for DeCoders?"
     ],
     "relevantLinks": [
       {
-        "title": "About DeCoders",
+        "title": "About DeCoders Programming Club",
         "url": "https://www.decoderssit.com/about"
       },
       {
-        "title": "Certificates",
+        "title": "DeCoders Programming Club Keywords",
         "url": "https://www.decoderssit.com/certificates"
       },
       {
-        "title": "Upcoming Event",
-        "url": "https://www.decoderssit.com/upcoming-event"
-      },
-      {
-        "title": "Team",
+        "title": "DeCoders Programming Club Meta Description",
         "url": "https://www.decoderssit.com/team"
       },
       {
-        "title": "Timeline",
-        "url": "https://www.decoderssit.com/timeline"
+        "title": "DeCoders Programming Club Meta Keywords",
+        "url": "https://www.decoderssit.com/upcoming-event"
+      },
+      {
+        "title": "DeCoders Programming Club Image Content",
+        "url": "https://www.decoderssit.com/member-login"
       }
     ]
   }
